@@ -21,7 +21,7 @@ public class TwoNumbers {
 
     System.out.println("adding is: " + (a + b));
     System.out.println("subtracted: " + (a - b));
-    System.out.println("decimal fraction: " + (c));
+    System.out.println("decimal fraction: " + (22. / 13.));
     System.out.println("divided: " + (a / b));
     System.out.println("multiplied: "+(a * b));
     System.out.println("reminder: "+(a % b));
