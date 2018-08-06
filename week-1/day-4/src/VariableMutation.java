@@ -1,3 +1,5 @@
+import static java.lang.Math.pow;
+
 public class VariableMutation {
   public static void main(String[] args) {
     int a = 3;
@@ -88,27 +90,44 @@ public class VariableMutation {
 
     int h = 135798745;
     // tell if it has 11 as a divisor (print as a boolean)
-
+    if((h%11) == 0) {
+      System.out.println("true");
+    }else{
+      System.out.println("false");
+    }
 
 
 
 
     int i1 = 10;
     int i2 = 3;
-    // tell if i1 is higher than i2 squared and smaller than i2 cubed (print as a boolean)
 
+    // tell if i1 is higher than i2 squared and smaller than i2 cubed (print as a boolean)
+   if(i1 > pow(i2,2) && i1 < pow(i2,3) ){
+     System.out.println("True");
+   }else {
+     System.out.println("False");
+   }
 
 
 
     int j = 1521;
     // tell if j is dividable by 3 or 5 (print as a boolean)
 
+    if((j%3) ==0 || (j%5)==0){
+      System.out.println("True");
+    }else {
+      System.out.println("ghoorbaghe");
+    }
 
 
 
-    String k = "Apple";
+    String k = "Apple ";
     //fill the k variable with its cotnent 4 times
+    for(int i = 0 ; i < 4 ; i++){
+      k += "Apple ";
 
+    }
 
 
     System.out.println(k);
