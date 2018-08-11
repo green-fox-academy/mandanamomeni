@@ -17,13 +17,13 @@ public class Lineplay {
       x += 20;
     }
     int y = 0;
-  for (int i = 0 ; i<13; i++){
-  y += 20;
+    for (int i = 0; i < 13; i++) {
+      y += 20;
 
-    graphics.setColor(Color.PINK);
-    graphics.drawLine(5, y+20, 5+y , 280);
-    x += 20;
-  }
+      graphics.setColor(Color.PINK);
+      graphics.drawLine(5, y + 20, 5 + y, 280);
+      x += 20;
+    }
 
   }
 
