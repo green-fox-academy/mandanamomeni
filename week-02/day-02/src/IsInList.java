@@ -1,5 +1,5 @@
 import java.util.*;
-
+import java.util.ArrayList;
 public class IsInList {
   public static void main(String... args) {
     ArrayList<Integer> list = new ArrayList<>(Arrays.asList(2, 4, 6, 8, 10, 12, 14, 16));
@@ -10,6 +10,7 @@ public class IsInList {
 
     checkNums(list);
     System.out.println(checkNums(list));
+
   }
 
   public static boolean checkNums(ArrayList<Integer> list) {
@@ -21,4 +22,5 @@ public class IsInList {
       return (false);
     }
   }
+
 }

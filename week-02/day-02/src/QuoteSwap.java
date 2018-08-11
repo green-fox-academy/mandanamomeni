@@ -20,16 +20,21 @@ public class QuoteSwap {
     list.set(2, "cannot");
     list.set(5, "do");
 
-    String qoute = "a";
+//    for (int i = 0 ; i < list.size(); i++){
+//
+//      System.out.println(list.get(i));
+//    }
+
+    String note = "";
     for (int i = 0; i < list.size(); i++) {
 
-      list.set(i, list.get(i) + "");
+      list.set(i, list.get(i)+"  ");
 
-      qoute += list.get(i);
+      note += list.get(i);
 
 
     }
-    return qoute;
+    return note;
   }
 
 }
