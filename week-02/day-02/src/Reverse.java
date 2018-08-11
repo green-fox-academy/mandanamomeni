@@ -5,13 +5,15 @@ public class Reverse {
     // Create a method that can reverse a String, which is passed as the parameter
     // Use it on this reversed string to check it!
     // Try to solve this using charAt() first, and optionally anything else after.
-    String reversed1 = "";
-    for (int i = reversed.length()-1; i >= 0; i--) {
 
-      reversed1 += reversed.charAt(i);
+    System.out.println(reverse(reversed));
+  }
+
+  public static String reverse(String input) {
+    String output = "";
+    for (int i = input.length() - 1; i >= 0; i--) {
+      output += input.charAt(i);
     }
-
-    System.out.println(reversed1);
-    // System.out.println(reversed.charAt(0));
+    return output;
   }
 }
