@@ -1,6 +1,9 @@
 // When saving this quote a disk error has occured. Please fix it.
 // Add "always takes longer than" to the StringBuilder (quote) between the words "It" and "you"
 // Using pieces of the quote variable (instead of just redefining the string)
+// When saving this quote a disk error has occured. Please fix it.
+// Add "always takes longer than" to the StringBuilder (quote) between the words "It" and "you"
+// Using pieces of the quote variable (instead of just redefining the string)
 
 public class TakesLonger {
   public static void main(String... args) {
@@ -13,7 +16,7 @@ public class TakesLonger {
 ////    System.out.println(quote.substring(18,30));
 
     StringBuilder sb = new StringBuilder(quote);
-    sb.insert(20, " always takes longer than");
+    sb.insert(sb.indexOf(" you"), " always takes longer than");
     System.out.println(sb);
   }
 }

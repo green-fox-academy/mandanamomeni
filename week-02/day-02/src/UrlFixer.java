@@ -10,6 +10,6 @@ public class UrlFixer {
     String url1 = url.replace("bots", "odds");
     String url2 = url1.replace("//", "://");
     System.out.println(url2);
-    
+
   }
 }
