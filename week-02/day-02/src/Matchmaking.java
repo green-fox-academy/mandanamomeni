@@ -10,7 +10,6 @@ public class Matchmaking {
     ArrayList<String> boys = new ArrayList<String>(Arrays.asList("Joe", "Fred", "Béla", "Todd", "Neef", "Jeff"));
     System.out.println(MakingMatches(girls, boys));
   }
-
   public static ArrayList MakingMatches(ArrayList girls, ArrayList boys) {
     ArrayList<String> newList = new ArrayList<>();
     for (int i = 0; i < girls.size(); i++) {
