@@ -2,6 +2,7 @@ import java.security.Key;
 import java.util.*;
 import java.util.HashMap;
 import java.util.Map;
+
 public class HeWillNever {
   public static void main(String... args) {
     String out = "";
@@ -23,10 +24,8 @@ public class HeWillNever {
     // Assemble the fragments into the out variable
 
     for (int i = 0; i < notSoCrypticMessage.length; i++) {
-
-      out += map.get( +notSoCrypticMessage[i]);
+      out += map.get(notSoCrypticMessage[i]);
     }
-
     System.out.println(out);
   }
-  }
+}
