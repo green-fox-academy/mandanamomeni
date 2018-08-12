@@ -12,8 +12,8 @@ public class Greet {
 
   }
 
-  public static void greet(String a1) {
+  public static void greet(String word) {
 
-    System.out.println("Greeting dear " + a1);
+    System.out.println("Greeting dear " + word);
   }
 }

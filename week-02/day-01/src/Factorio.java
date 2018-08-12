@@ -21,7 +21,7 @@ public class Factorio {
   public static int factorio(int n) {
     int factorial = 1;
     for (int i = 1; i <= n; i++) {
-      System.out.println(factorial);
+      //System.out.println(factorial);
       factorial = factorial * i;
     }
     return factorial;

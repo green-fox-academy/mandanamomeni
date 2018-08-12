@@ -13,9 +13,9 @@ public class AppendAFunc {
 
   }
 
-  public static void appendFunc(String typo) {
+  public static void appendFunc(String input) {
 
-    typo = typo + "a";
-    System.out.println(typo);
+    input = input + "a";
+    System.out.println(input);
   }
 }
