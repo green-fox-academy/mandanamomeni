@@ -23,6 +23,8 @@ public class CopyFile {
 
         writer.println(line);
       }
+      reader.close();
+      writer.close();
     } catch(IOException e) {
       System.out.println("no");
     }
