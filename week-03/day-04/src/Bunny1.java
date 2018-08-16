@@ -3,20 +3,16 @@
 
 public class Bunny1 {
   public static void main(String[] args) {
-int result = bunnyEarsCount(10);
+    int result = bunnyEarsCount(10);
     System.out.println(result);
-
   }
 
-  public static int bunnyEarsCount(int bunny){
+  public static int bunnyEarsCount(int bunny) {
     int ear = 2;
-    if ( bunny == 1){
+    if (bunny == 1) {
       return ear;
-    }else{
-
-      return ear + bunnyEarsCount(bunny-1);
+    } else {
+      return ear + bunnyEarsCount(bunny - 1);
     }
-
-
   }
 }
