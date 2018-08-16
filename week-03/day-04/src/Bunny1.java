@@ -3,7 +3,7 @@
 
 public class Bunny1 {
   public static void main(String[] args) {
-    int result = bunnyEarsCount(10);
+    int result = bunnyEarsCount(3);
     System.out.println(result);
   }
 
