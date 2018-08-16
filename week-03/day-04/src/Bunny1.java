@@ -3,15 +3,18 @@
 
 public class Bunny1 {
   public static void main(String[] args) {
+int result = bunnyEarsCount(10);
+    System.out.println(result);
 
   }
 
-  public static int bunnyEar(int n){
-    if ( n == 1){
-      return n*2;
+  public static int bunnyEarsCount(int bunny){
+    int ear = 2;
+    if ( bunny == 1){
+      return ear;
     }else{
 
-      return
+      return ear + bunnyEarsCount(bunny-1);
     }
 
 
